@@ -17,7 +17,6 @@ console.log(result);
 function budgetCalculator(noOfWatch, noOfPhone, noOfLaptop){
     if(noOfWatch < 0 || noOfPhone < 0  || noOfLaptop < 0){
         return "Please Enter Valid Quantity of product";
-        // console.log()
     }else{
     var total = (noOfWatch * 50) + (noOfPhone * 100) + (noOfLaptop * 500) ;
     return total;
